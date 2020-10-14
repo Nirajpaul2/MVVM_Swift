@@ -23,13 +23,13 @@ class JsonResponse{
     }
     
     //Registration
-    func registrationApiCall(){
-        
-        ApiParser.singleton.getPost(url: GlobalUrlString.urlString, parameter: [:]) { (response) in
-            
-        }
-       
-    }
+//    func registrationApiCall(){
+//
+//        ApiParser.singleton.getPost(url: GlobalUrlString.urlString, parameter: [:]) { (response) in
+//
+//        }
+//
+//    }
     
     //ForgetPassword
     

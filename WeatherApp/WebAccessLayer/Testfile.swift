@@ -7,3 +7,27 @@
 //
 
 import Foundation
+
+
+class Person {
+    
+    var name: String?
+    
+    var job: Job?
+    
+    init(name: String) {
+        self.name = name
+    }
+    
+}
+
+class Job {
+    var jobType: String
+    
+    var person: Person?
+    
+    init(jobType: String) {
+        self.jobType = jobType
+    }
+    
+}
